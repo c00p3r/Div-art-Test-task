@@ -1,0 +1,15 @@
+body{
+    background: #e5e5e5;
+}
+.form-container,
+.jumbotron {
+    max-width: 400px;
+    margin-top: 10%;
+}
+#login-logo {
+    max-width: 100px;
+    margin-bottom: 15px;;
+}
+.form-control-feedback {
+    z-index: 3;
+}
