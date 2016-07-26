@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="jumbotron text-center center-block">
         <h2>Персональний кабінет</h2>
         <a class="btn btn-danger btn-block btn-lg" role="button"
-           href="<?php echo base_url('index.php/account_controller/logout') ?>">Вийти</a>
+           href="<?php echo base_url('account_controller/logout') ?>">Вийти</a>
     </div>
 </div> <!-- /container -->
 

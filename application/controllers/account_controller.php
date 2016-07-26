@@ -13,7 +13,7 @@ class Account_Controller extends CI_Controller {
         parent::__construct();
 
         if (!isset($this->session->userdata['logged_in'])){
-            redirect('login_controller/index');
+            redirect('login_controller');
         }
 
         $this->load->helper('form');
@@ -35,7 +35,7 @@ class Account_Controller extends CI_Controller {
         );
         $this->session->unset_userdata('logged_in', $session_data);
 
-        $this->load->view('login_view');
+        redirect('login_controller');
     }
 
 }
